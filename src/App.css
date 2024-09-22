@@ -1,0 +1,100 @@
+/* App.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resume-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* App.css */
+
+.image-container {
+    text-align: center; /* Align the image to the center */
+    margin-bottom: 20px; /* Add some margin at the bottom */
+}
+
+.image-container img {
+    max-width: 200px; /* Set the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+}
+/* Add more styles as needed */
+/* Add this CSS to your existing stylesheet or create a new one */
+
+button {
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set text color */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}

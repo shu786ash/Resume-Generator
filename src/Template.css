@@ -1,0 +1,50 @@
+/* Template.css */
+
+.template-container {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    height:100vh; /* Set the container to full viewport height */
+}
+.temp1,
+.temp2,
+.temp3 {
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center; /* Center the images within their containers */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);/* Add box shadow */
+    width: 300px; /* Set the width of the container */
+    height: 440px; /* Set the height of the container */
+    overflow: hidden; /* Hide overflow to prevent image stretching */
+    border-radius: 10px;
+}
+
+.temp1 img,
+.temp2 img,
+.temp3 img {
+    width: 100%; /* Make the image fully fit horizontally */
+    height: 100%; /* Make the image fully fit vertically */
+    object-fit: cover; /* Ensure the image fully covers the container */
+}
+.free-btn{
+    margin-top: 30px;
+    border-radius: 60%;
+    cursor: pointer;
+}
+.hero-header{
+    margin: 20px;
+    padding: 10px;
+    
+}
+.hero-header .process-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.process-header p{
+    
+}
+img{
+    cursor: pointer;
+}
